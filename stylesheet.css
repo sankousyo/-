@@ -1,0 +1,79 @@
+.title{
+  position: relative;
+  padding: 0.1em 0.5em;
+  background: -webkit-linear-gradient(#66ccff,#66ccff, transparent);
+  background: linear-gradient(#66ccff,#66ccff, transparent);
+  background-color:white;
+}
+
+.title2{
+  position: relative;
+  padding: 0.25em 0;
+}
+.title2::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right,#66ccff,  #66ccff);
+  background: linear-gradient(to right,#66ccff, #66ccff);
+}
+
+.h1{font-size: 40px;}
+
+.mokuji{
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+
+
+.eitangomei{
+  color: #364e96;/*文字色*/
+  padding: 5px;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+
+.hensachi{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.hensachi p {
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle{font-size: 20px;}
+
+.hensachi{font-size:23px;}
+
+.eitangomei{font-size:25px;}
+
+.tyuui{text-decoration: underline red;color: red}
+
+.subtitle{
+  background: #3cb3e4;
+  padding: 5px 15px;
+  border-radius: 0 10px 0 10px;
+  color: #fff;
+}
+
+.h4 ul  ol {
+  padding: 0;
+  position: relative;
+}
+
+ul li, ol li {
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd;/*左側の線*/
+  background: #f1f8ff;/*背景色*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+   line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+}
